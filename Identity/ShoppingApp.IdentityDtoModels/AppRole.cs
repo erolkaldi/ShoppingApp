@@ -1,8 +1,7 @@
 ﻿
-
 namespace ShoppingApp.IdentityModels
 {
-    public class AppUser
+    public class AppRole :IdentityRole
     {
     }
 }
