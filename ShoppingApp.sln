@@ -7,11 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{73
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.IdentityApi", "Identity\ShoppingApp.IdentityApi\ShoppingApp.IdentityApi.csproj", "{E4572A18-200F-4524-AF0B-8FCF9E03AC69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.IdentityModels", "Identity\ShoppingApp.IdentityDtoModels\ShoppingApp.IdentityModels.csproj", "{E698804A-6745-46EB-B237-1CC15FE53DF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.IdentityModels", "Identity\ShoppingApp.IdentityModels\ShoppingApp.IdentityModels.csproj", "{E698804A-6745-46EB-B237-1CC15FE53DF7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.IdentityContext", "Identity\ShoppingApp.IdentityContext\ShoppingApp.IdentityContext.csproj", "{AA06C893-B446-4C4C-A7E3-9599EC67D8EA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingApp.IdentityPersistence", "Identity\ShoppingApp.IdentityPersistence\ShoppingApp.IdentityPersistence.csproj", "{320CEA34-ECE0-4B82-9799-F3BBA44837E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{3BB8E59C-2937-4D4A-BEE1-50203B747A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingApp.GatewayApi", "Gateway\ShoppingApp.GatewayApi\ShoppingApp.GatewayApi.csproj", "{0F6F8AC0-EFC9-4F76-A7F0-DF5DEBC92DA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,10 @@ Global
 		{320CEA34-ECE0-4B82-9799-F3BBA44837E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{320CEA34-ECE0-4B82-9799-F3BBA44837E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{320CEA34-ECE0-4B82-9799-F3BBA44837E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6F8AC0-EFC9-4F76-A7F0-DF5DEBC92DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6F8AC0-EFC9-4F76-A7F0-DF5DEBC92DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6F8AC0-EFC9-4F76-A7F0-DF5DEBC92DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6F8AC0-EFC9-4F76-A7F0-DF5DEBC92DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{E698804A-6745-46EB-B237-1CC15FE53DF7} = {73CA2A32-E494-4CB3-8CE4-390301800A47}
 		{AA06C893-B446-4C4C-A7E3-9599EC67D8EA} = {73CA2A32-E494-4CB3-8CE4-390301800A47}
 		{320CEA34-ECE0-4B82-9799-F3BBA44837E7} = {73CA2A32-E494-4CB3-8CE4-390301800A47}
+		{0F6F8AC0-EFC9-4F76-A7F0-DF5DEBC92DA9} = {3BB8E59C-2937-4D4A-BEE1-50203B747A15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADF7BD74-8C5A-433C-9926-2691F83C5612}
