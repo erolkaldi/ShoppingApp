@@ -58,7 +58,7 @@
         }
       ],
       "UpstreamPathTemplate": "/api/token",
-      "UpstreamHttpMethod": [ "Get", "Post" ]
+      "UpstreamHttpMethod": [ "Post" ]
     }
   ],
   "GlobalConfiguration": {

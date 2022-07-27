@@ -15,7 +15,7 @@ namespace ShoppingApp.IdentityApi.Controllers
             _configuration = configuration;
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<Token> GetToken(GetUserByEmailCommand command)
         {
             Token token = new Token();
