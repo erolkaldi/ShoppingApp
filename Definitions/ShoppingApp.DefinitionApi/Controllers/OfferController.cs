@@ -29,7 +29,7 @@ namespace ShoppingApp.DefinitionApi.Controllers
             offers.Add(new OfferDto
             {
                 Title = "Cccccc",
-                Description = "Ddddd ddd ddddddd",
+                Description = "Ddddd ddd dddddddv",
                 PhotoUrl = "https://sedna360.s3.eu-central-1.amazonaws.com/Trace/Photos/00608407-d52c-4cb2-98b5-7888d6c5976c.jpeg"
             });
             return Ok(offers);
